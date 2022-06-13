@@ -1,0 +1,2 @@
+temp=76.8'C
+/dev/root        16G  3.1G   10G  23% /

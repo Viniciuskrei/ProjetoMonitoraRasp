@@ -1,0 +1,9 @@
+Para replicar a base de dados utilizada, sem necessidade de alterar o código.
+
+CREATE SCHEMA basedados;
+
+USE basedados;
+
+CREATE TABLE dados (id INT PRIMARY KEY AUTO_INCREMENT, temp FLOAT, memTotal FLOAT, memLivre FLOAT, dia DATE, hora TIME);
+
+INSERT INTO dados (temp, memTotal, memLivre, dia, hora) VALUES (40.8, 16, 11, '2022-01'01', '12:00:00');
